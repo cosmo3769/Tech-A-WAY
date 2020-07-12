@@ -1,11 +1,11 @@
 body{
     padding:50px 0px 0px 0px;
     z-index:0;
-    background-color: #0f0f0f;
+    background-color: #f7f7ee;
 }
 
 .navbar-dark {
-     background-color: #222;
+     background-color: #596e79;
 }
 
 .navbar-logo {
@@ -46,8 +46,9 @@ body{
 }
 
 .card {
-    background-color: #222;
-    color: white;
+    background-color: #f7f7ee;
+    color: #596e79;
+    box-shadow: 2px 4px 3px 5px #888888;
 }
 
 .blog-icon {
@@ -67,7 +68,7 @@ body{
 }
 
 .introduction {
-    color: white;
+    color: #596e79;
     display:inline-block;
     margin-top: 5%;
     padding:5px;
@@ -84,7 +85,7 @@ body{
     /* padding:5px; */
 }
 .content{
-    color:white ;
+    color:#596e79 ;
     /* padding:10px; */
     margin-top:30px;
     /* margin-left:15px; */
@@ -102,6 +103,11 @@ figcaption{
     font-weight: 100;
 }
 .code{
-    background-color: darkcyan;
+    background-color: whitesmoke;
+    box-shadow: 5px 10px 8px 10px #888888 ;
     padding-left:10px;
+}
+.img-card{
+    /* padding-top: 10px; */
+    padding:10px;
 }
