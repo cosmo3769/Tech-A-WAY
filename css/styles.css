@@ -228,3 +228,21 @@ figcaption{
         transform: translate(-50%, -50%);
       }
 }
+
+.hr-text{
+    display: flex; 
+    flex-direction: row; 
+    font-weight:5;
+    color:#596e79;
+}
+.hr-text:before, .hr-text:after{
+    content: ""; 
+    flex: 1 1; 
+    border-bottom: 1px solid #596e79; 
+    margin: auto; 
+
+}
+.self-description{
+    display: inline-block;
+    width: 100%;
+}
