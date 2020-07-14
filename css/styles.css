@@ -64,15 +64,19 @@ body{
     color: #596e79;
     box-shadow: 2px 4px 3px 5px #888888;
     margin-top: 5px;
+    text-decoration: none;
+}
 
+a.link-card,
+a.link-card:hover {
+  color: inherit;
+  text-decoration: none;
 }
 
 @media only screen and (max-width:769px){
     .card {
         width: 180%;
-        
     }
-    
 }
 
 .blog-icon {
