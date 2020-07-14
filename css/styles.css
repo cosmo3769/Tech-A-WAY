@@ -154,6 +154,10 @@ figcaption{
     .moto{
         display:none;
     }
+    .img-author{
+        display:block;
+        float:none;
+    }
     
 }
 #blogvideo{
@@ -197,6 +201,12 @@ figcaption{
 
 }
 .self-description{
-    display: inline-block;
-    width: 100%;
+    float:left;
+}
+.img-author{
+   display:block;
+   width:80px;
+   height:80px;
+   float:right;
+
 }
