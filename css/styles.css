@@ -116,6 +116,7 @@ a.link-card:hover {
     color:#596e79 ;
     /* padding:10px; */
     margin-top:30px;
+    /* font-size: large; */
     /* margin-left:15px; */
     
 }
@@ -165,6 +166,9 @@ figcaption{
     .card-container{
         display: block;
         margin:auto;
+    }
+    .content{
+        font-size: medium;
     }
     
 }
@@ -279,4 +283,7 @@ figcaption{
 .name{
     padding:10px;
     margin-left: 15px;
+}
+.social-links{
+    float: left;
 }
